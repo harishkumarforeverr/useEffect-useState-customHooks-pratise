@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Campton1";
+    src: url("./Fonts/CamptonBook.otf") format("OpenType");  
+} 
+@font-face {
+    font-family: "Campton2";
+    src: url("./Fonts/CamptonBold.otf") format("OpenType"); 
+}
+
+@font-face {
+    font-family: "Campton3";
+    src: url("./Fonts/CamptonLight.otf") format("OpenType"); 
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Campton4";
+    src: url("./Fonts/CamptonMedium.otf") format("OpenType"); 
+}
+
+@font-face {
+    font-family: "Campton5";
+    src: url("./Fonts/CamptonExtraLightItalic.otf") format("OpenType"); 
+} 
+
+ 
+@font-face {
+    font-family: "Campton6";
+    src: url("./Fonts/CamptonBlackItalic.otf") format("OpenType"); 
+}
+  
+:root{ 
+    --Medium:  CamptonMedium;
+}
+
+
+
+
+.span_h1 {
+    font-family:  var(--Medium);  
+    font-size: 4rem;
+}
+
+
+.span_h2 {
+    font-family: "Campton2"; 
+}
+
+.span_h3 {
+    font-family: "Campton3";   
+}
+
+.span_h4 {
+    font-family: "Campton4"; 
+}
+
+.span_h5 {
+    font-family: "Campton5"; 
+}
+  
+
+
+
+
+
+/// i imported all the file of font family
+// these fonts will not load in the newtork tab until we use these font family to any tag
+
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonBold.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonBookItalic.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonExtraBold.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonExtraBoldItalic.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonExtraLight.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonExtraLightItalic.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonLight.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonLightItalic.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonMedium.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "CamptonMedium";
+    src: url("./Fonts/CamptonMediumItalic.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonSemiBold.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonSemiBoldItalic.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonThin.otf") format("OpenType"); 
+}
+@font-face {
+    font-family: "anyNameGivenbyuser";
+    src: url("./Fonts/CamptonThinItalic.otf") format("OpenType"); 
+}
+
+
+
+
+.RootFileOfComponents{
+    margin-top: 10rem;
+    &__div{
+      display: flex;  
+      justify-content: space-around;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
